@@ -1,0 +1,115 @@
+/*Aqui estilizamos a tag e Body. Cor de fundo, familia de fontes e altura da linha.*/
+body{
+    background-color:#FFFFFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+/*Aqui estilizamos o container, com margens externa superior e inferior 0, e margens esquerda e direita automáticas, e a largura 960px.*/
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+/*Aqui estilizamos a cor de fundo do cabeçalho da página*/
+.header{
+     background-color: #006400;
+}
+/*Aqui estilizamos a tag H4 que está dentro do cabeçalho (header)*/
+.header h4{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+/*Aqui estilizamos o texto da tag a, dentro da tag h1 e classe header. Margem esquerda 20px e sem o sublinhado do link.*/
+.header h1 a{
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-decoration: none;
+}
+/*Aqui estilizamos a tag h3 do cabeçalho, cor do texto branco, margem esquerda de 20px.*/
+.header h3{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+/*Aqui estamos estilizando a tag h1 para o texto mudar de cor quando o mouse passar por cima.*/
+.header h1 a:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+/*Aqui estilizamos a barra lateral, fundo branco, borda superior de 10px verde e posicionamento à esquerda, a margem interna de 10px de todos os lados. Largura de 200px*/
+.sidebar{
+    background-color: #FFFFFF;
+    border-top: 10px solid #006400;
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+/**/
+.sidebar img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+  margin-bottom: 20px;
+  width: 150px;
+  height: 200px; 
+}
+/*Aqui mudamos o tamanho do texto do título da barra lataral para 14px e cor verde, e a margem externa superior de 20px*/
+.sidebar h3{
+    font-size: 14px;
+    color: #006400;
+    margin-top: 20px;
+}
+
+.sidebar ol{
+    font-size: 12px;
+}
+/*Aqui configuramos a cor de fundo da section (parte onde ficarão as notícias) para o branco, o posicionamento  do lado direito e a largura da section de 700px*/
+.section {
+    background-color: #FFFFFF;
+    float: right;
+    width: 700px;
+}
+/*Aqui modificamos a cor de fundo do título das notícias para cinza*/
+.header2 {
+    background-color: #dcdcdc;
+}
+/*Aqui estilizamos a cor do título das notícias para verde, as margens inferior e superior automáticas, margem esquerna externa de 10px, margem interna de 5px de todos os lados,
+fonte tamanho px e sem negrito.*/
+.header2 h2 {
+    color: #006400;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Aqui mudamos o fundo da article para branco, margem inferior externa de 20px e margem interna de todos os lados de 10px*/
+.article {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+/*Aqui inserimos uma borda de 1px preta de linha sólica ao redor da imagem. Posicionamos a imagem à esquerda. Margens externas superior e direita de 10px, e inferior
+e esquerda 0. Largura de 200px e altura de 200px.*/
+.article img{
+    border: 1px solid #000;
+    float: left;
+    margin: 10px 10px 0 0 ;
+    width: 200px;
+    height: 200px;
+}
+/*Aqui estamos estilizando a cor do texto da notícia dentro da tag p.*/
+.article p {
+    color: #000;
+}
+/*Aqui estilizamos o texto do link da notícia, azul mais claro e em negrito.*/
+.article a {
+    color: #4682B4;
+    font-weight: bold;
+}
+/*Aqui estilizamos o rodapé sem elemento dos lados, tamanho do texto 12px, cor verde e centralizado.*/
+.clear{
+    clear: both;
+    font-size: 12px;
+    color: #006400;
+    text-align: center;
+}
